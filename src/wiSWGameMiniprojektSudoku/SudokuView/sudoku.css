@@ -1,0 +1,77 @@
+.normalCell{
+	-fx-font: 18px "Monospace";
+	-fx-text-fill: black;
+	font-weight: bold;
+	-fx-border-insets: 0.5;
+	-fx-border-color: black;
+	-fx-border-width: 0.5;
+	-fx-min-width: 20;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-background-color: white;
+	-fx-pref-width: 50.0;
+	-fx-pref-height: 50.0;
+}
+
+.editCell{
+	-fx-font: 18px "Serif";
+	-fx-text-fill: black;
+	-fx-border-insets: 0.5;
+	-fx-border-color: black;
+	-fx-border-width: 0.5;
+	-fx-min-width: 20;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-background-color: #EFEFFB;
+	-fx-pref-width: 50.0;
+	-fx-pref-height: 50.0;
+}
+
+.correctCell{
+	-fx-font: 18px "Serif";
+	-fx-text-fill: black;
+	-fx-border-insets: 0.5;
+	-fx-border-color: #0B6138;
+	-fx-border-width: 0.5;
+	-fx-min-width: 20;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-background-color: #A9F5D0;
+	-fx-pref-width: 50.0;
+	-fx-pref-height: 50.0;
+	
+}
+
+.incorrectCell{
+	-fx-font: 18px "Serif";
+	-fx-text-fill: black;
+	-fx-border-insets: 0.5;
+	-fx-border-color: #F5A9BC;
+	-fx-border-width: 0.5;
+	-fx-min-width: 20;
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-background-color: #FF0040;
+	-fx-pref-width: 50.0;
+	-fx-pref-height: 50.0;
+	
+}
+
+.normalCell:focused {
+	-fx-text-fill: black;
+}
+
+.GameBoard{
+	-fx-hgap: 0.5;
+	-fx-vgap: 0.5;
+	-fx-background-color: #383838;
+
+}
+
+
+
+.smallBoard{
+	-fx-background-color: green;
+	-fx-border-color: yellow;
+	-fx-border-width: 5px;
+}
