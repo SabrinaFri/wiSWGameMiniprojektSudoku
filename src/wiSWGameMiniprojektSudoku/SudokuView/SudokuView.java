@@ -12,7 +12,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import wiSWGameMiniprojektSudoku.SudokuModel.SudokuModel;
 
-public class SudokuView {
+public class SudokuView{
 	private SudokuModel model; 
 	private Stage stage;
 	private Scene scene;
@@ -35,7 +35,7 @@ public class SudokuView {
 	private Label l;
 	static final int SIZE_BOARD = 9;
 	
-	public void SudokuView(Stage stage, SudokuModel model) {
+	public SudokuView(Stage stage, SudokuModel model) {
 		this.stage = stage;
 		this.model = model;
 		
