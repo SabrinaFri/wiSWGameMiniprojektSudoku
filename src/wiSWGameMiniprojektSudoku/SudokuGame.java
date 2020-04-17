@@ -1,5 +1,5 @@
 package wiSWGameMiniprojektSudoku;
 
-public class test {
+public class SudokuGame {
 
 }
