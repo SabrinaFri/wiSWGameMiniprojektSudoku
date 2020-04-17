@@ -7,3 +7,5 @@ Aus zwei verschiedenen Dateien wird zufallsmässig ein Spiel erstellt. Anhand di
 Die Nummer können direkt im Spiel eingetragen werden. Ist das Spiel beendet, kann mit dem Button "Spiel korrigieren" die Eingabe überprüft werden. Rot hinterlegte Zellen sind falsch, grün hinterlegte Zellen sind korrekt. 
 
 Wird der Button "Spiel korrigieren" angeklickt ohne das alle Felder ausgefüllt sind erscheint eine Info Meldung, dass noch nicht alle Felder ausgefüllt sind. Sind alle Felder richtig ausgefüllt erscheint ebenfalls eine Meldung. 
+
+Soll ein neues Spiel gestartet werden, muss die Applikation beendet werden und neu gestartet werden. 
