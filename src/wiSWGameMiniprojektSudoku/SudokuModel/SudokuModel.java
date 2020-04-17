@@ -10,7 +10,7 @@ public class SudokuModel {
 	private int [][] gameBoard;
 	private int [][] createGameBoard;
 	private final int BOARD_SIZE = 9;
-	private final String SUDOKU_FILE = "/SudokuGame/SudokuModel/Games/SudokuEinsteiger";
+	private final String SUDOKU_FILE = "/wiSWGameMiniprojektSudoku/SudokuModel/Games/SudokuEinsteiger";
 	private final String SUDOKU_FILE_Part2 = "-L.txt";
 	private String packageFileData;
 	
